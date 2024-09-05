@@ -1,0 +1,5 @@
+[package]
+name = "doc_tests"
+
+[lib]
+name = "doc_tests"
