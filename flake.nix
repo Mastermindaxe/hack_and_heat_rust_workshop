@@ -36,7 +36,7 @@
         devShells.default = with pkgs;
           mkShell {
             buildInputs =
-              [ cargo rustc rustfmt pre-commit rustPackages.clippy ];
+              [ cargo rustc rustfmt pre-commit rustPackages.clippy cargo-shuttle ];
             RUST_SRC_PATH = rustPlatform.rustLibSrc;
           };
         formatter = pkgs.nixfmt;

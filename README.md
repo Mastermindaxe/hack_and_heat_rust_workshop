@@ -28,10 +28,8 @@ __11:00__
 
 ## Part 2: Teaser - Rust magic?
 
-Navigate to `part_2` using your IDE. There's lots of folders and in them is some code.
-
-## Part 2: Actual backend code? :flush::point_finger_right::point_finger_left:
-
-Open this repository in your IDE of choice and navigate into the folder `part_2`.
-
-Go on to explore a bit and we will talk about the project, the crates (dependencies) and all the stuff that makes it a backend service
+There are multiple possible ways for you to explore the second part of this workshop:
+- Take a look at built-in benchmarks in [benchmarks](part_2/benchmarks)
+- Documentation that tests itself??? -> [doc_tests](part_2/doc_tests)
+- Deploy a webservice without specifying any infrastructure code -> [shuttle/hack-and-heat-main](part_2/shuttle/hack-and-heat-main)
+- Look at an actual backend service with all the goodies -> come over and take a look at my laptop
