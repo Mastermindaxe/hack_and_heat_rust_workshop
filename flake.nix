@@ -14,8 +14,8 @@
         packages.default = naersk-lib.buildPackage ./part_2/benchmarks;
         packages.benchmarks = naersk-lib.buildPackage ./part_2/benchmarks;
         packages.doc_tests = naersk-lib.buildPackage ./part_2/doc_tests;
-        packages.macros_and_meta_programming =
-          naersk-lib.buildPackage ./part_2/macros_and_meta_programming;
+        packages.shuttle =
+          naersk-lib.buildPackage ./part_2/shuttle/hack-and-heat-main;
 
         checks = {
             test = naersk-lib.buildPackage {
