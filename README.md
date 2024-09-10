@@ -24,11 +24,16 @@ Don't be afraid to call for help if you have questions regarding the assignment 
 
 ### When to stop
 
+-------
+
 __11:00__
+
+-------
 
 ## Part 2: Teaser - Rust magic?
 
 There are multiple possible ways for you to explore the second part of this workshop:
+- Data Science in Rust? -> [data](part_2/data)
 - Take a look at built-in benchmarks in [benchmarks](part_2/benchmarks)
 - Documentation that tests itself??? -> [doc_tests](part_2/doc_tests)
 - Deploy a webservice without specifying any infrastructure code -> [shuttle/hack-and-heat-main](part_2/shuttle/hack-and-heat-main)

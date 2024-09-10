@@ -11,11 +11,27 @@
         pkgs = import nixpkgs { inherit system; };
         naersk-lib = pkgs.callPackage naersk { };
       in {
-        packages.default = naersk-lib.buildPackage ./part_2/benchmarks;
-        packages.benchmarks = naersk-lib.buildPackage ./part_2/benchmarks;
-        packages.doc_tests = naersk-lib.buildPackage ./part_2/doc_tests;
+        packages.default = naersk-lib.buildPackage {
+            pname = "benchmarks";
+            src = ./part_2;
+        };
+        packages.benchmarks = naersk-lib.buildPackage {
+            pname = "benchmarks";
+            src = ./part_2;
+        };
+        packages.doc_tests = naersk-lib.buildPackage {
+            pname = "doc_tests";
+            src = ./part_2;
+        };
         packages.shuttle =
-          naersk-lib.buildPackage ./part_2/shuttle/hack-and-heat-main;
+          naersk-lib.buildPackage {
+              pname = "hack-and-heat-main";
+              src = ./part_2;
+          };
+        packages.data = naersk-lib.buildPackage {
+            pname = "data";
+            src = ./part_2;
+        };
 
         checks = {
             test = naersk-lib.buildPackage {
