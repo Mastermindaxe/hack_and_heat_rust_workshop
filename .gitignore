@@ -21,3 +21,4 @@ Cargo.lock
 #.idea/
 
 .direnv/
+.DS_STORE
