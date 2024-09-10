@@ -9,3 +9,10 @@
 ## Example
 The example uses a dataset with lots of penguins. There is also [assets_m6.csv](assets_m6.csv). Can you find out what it's about? Can you see any characteristics?
 [Hint and source](https://github.com/Mcompetitions/M6-methods/blob/main/assets_m6.csv)
+
+## Compile error
+Run `brew install libiconv` when the following message appears:
+```
+= note: ld: library not found for -liconv
+          clang-16: error: linker command failed with exit code 1 (use -v to see invocation)
+```
