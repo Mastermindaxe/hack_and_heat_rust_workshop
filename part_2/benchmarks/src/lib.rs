@@ -2,7 +2,7 @@
 // Let's just expect the input to be > 0. Makes the code easier to read
 // If you run `cargo bench` you can run benchmarks on these two to catch performance regressions!
 
-pub fn fibonacci(n: u32) -> u64 {
+pub fn fibonacci_iterative(n: u32) -> u64 {
     if n == 1 {
         return 1;
     }
